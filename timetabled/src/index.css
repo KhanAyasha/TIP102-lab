@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh; 
+  }
+  
+  th {
+    width: 120px;
+    padding-top:25px;
+    padding-bottom:30px;
+  }
+  
+  td {
+    padding: 5px;
+  }
+  
+  .time {
+    height: 40px;
+  }
+
+  /* General Event styling */
+.Event {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Predefined color classes */
+  .red {
+    background-color: #efa08f;
+  }
+  
+  .blue {
+    background-color: #b7d3eb;
+  }
+  
+  .green {
+    background-color: #a5d1a6;
+  }
+  
+  .yellow {
+    background-color: #e2da91;
+    color: black; /* Adjust text color for better readability */
+  }
+  
